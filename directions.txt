@@ -1,0 +1,51 @@
+RealtyCorp Listings page
+
+Difficulty Level: Medium
+
+Technologies/skills used: CSS3 properties including opacity, rounded corners, and transitions
+
+
+
+Problem Description:
+
+RealtyCorp, a stylish new real estate broker, has hired you to finish building their website. The previous developer was more of a designer, really, so while the site looks decent, it's not quite done.
+
+RealtyCorp has been losing a number of clients to their competition lately, and one of the partners is convinced it's because their competitors are using CSS3 on their websites. He now insists that the RealtyCorp listings page should use CSS3... whatever that is.
+
+
+Requirements:
+
+	1) The listings boxes themselves are totally square. Give the boxes rounded corners. Notice what happens to the children of the .listing boxes when you do this. Make sure all the elements have the appropriate rounding (and squaring, where appropriate).
+
+	2) Now that the listing corners feel less square, let's give them the appearance of depth. Add a subtle shadow to each .listing box. Play with each argument in the css property to understand how each changes the appearance of the shadow. 
+
+	3) The listing details section (below the listing photo) now feels a little flat. Give this section an interior light shadow to give it the appearance of rounding. (Hint: add an argument to the box-shadow property to achieve this)
+
+	4) When someone hovers over the listing, RealtyCorp wants a couple of things to happen:
+		* The entire listing box should be clickable
+		* The link text to be centered vertically and horizontally
+		* There should be a semitransparent black background that covers the picture
+
+	This is achievable without adding any divs, but you can add one extra div if you need to. If you can figure that out, try getting it to work using just the <a> tag. (Hin)
+
+	5) Now that you've done all that, create some cool movement using animations. There are three transitions RealtyCorp wants you to add when hovering over the .listing boxes:
+		1) The drop shadow you created for the .listing boxes should change to give the div the apperance of lifting off the page
+		2) The black overlay should fade from transparent to partially opaque
+		3) The text inside the overlay should be fully opaque by the end of the animation. This is more complicated than it sounds.
+
+	6) If you can finish all these, make sure this works in Chrome and FireFox.
+
+	
+	Helpful CSS examples:
+
+	* Box shadow: http://www.css3.info/preview/box-shadow/
+	* Border radius: http://www.css3.info/preview/rounded-border/
+	* Transitions: http://www.css3.info/preview/css3-transitions/
+	* RGBA: http://www.css3.info/preview/rgba/
+	* Browser prefixes: http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm
+
+	Hints:
+
+	You will not need to add any markup (HTML) or Javascript to this assignment. If you are having trouble figuring out how to get certain animations to work, think about how you would do it using Javascript.
+
+	Opacity is useful, but child elements of partially-transparent elements will inherit their parents' opacities, and cannot be made fully opaque. There's another way to create a semitransparent background that doesn't involve the opacity property.
